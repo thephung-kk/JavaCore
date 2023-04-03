@@ -37,8 +37,9 @@ public class Validate {
                 if (n < 0) {
                     System.err.println("Please enter positive integer number:");
                     System.out.println("Enter again");
-                }
+                } else{
                 return n;
+                }
             } catch (NumberFormatException ex) {
                 System.err.println("Please enter an integer number:");
                 System.out.println("Enter again");
